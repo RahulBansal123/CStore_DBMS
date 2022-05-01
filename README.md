@@ -1,11 +1,27 @@
-## How to run the application:
+### Stakeholders: admin, employee, visitors
 
-```
-git clone https://github.com/RahulBansal123/cstore.git
-cd cstore
-npm install
-npm start
-```
+### Features:
+#### Buyers:
+1. Browse the CStore’s products and brands
+2. Add/Remove products in the cart
+3. Manage/View orders
+4. Review the products
+5. Filter the products by price and ratings
+6. View the reviews of the products
+7. Change address, name and phone number
+
+#### Sellers:
+1. Add/Manage/View their brand
+2. Add products in the brand
+3. View the orders for the products
+4. Change address, name and phone number
+5. Browse the CStore’s products and brands
+
+#### Admin:
+1. manages and controls the CStore
+2. View all the orders/products/brands
+3. Can add/update/delete a product
+4. Fetch/delete a seller 
 
 ## Triggers are created for updated field for users(triggerUser), cart(triggerCart) and seller(triggerSeller)
 
